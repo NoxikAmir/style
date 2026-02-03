@@ -1,0 +1,171 @@
+﻿/* 
+  Theme Name: Echoroukonline Mngez Style
+  Theme URI: https://www.mngez.com/
+  Description: Echoroukonline Mngez Style
+  Version: 0.1
+  Author: شركة منجز لخدمات الإنترنت
+  Author URI: https://www.mngez.com/
+  Tags: host, design, domain
+*/
+
+/* Portrait phones and smaller */
+@media (min-width: 320px) and (max-width: 480px) {
+.container {width: 100%;}
+#headermob, .visible-xs, .mngez_postitem .mngez_proside2 {display: block;}
+nav, .mngez_notices .content .navbar_notice input, .mngez_forumhome .title span.tdtwo p, .forumicon, .forumstate, .forumtitle .description, header, .mngez_forumdesplaybottom span.tdtwo, .mngez_forumdesplaybottom span.iconarea, .mngez_announcement .icon, .mngez_announcement .countview, .mngez_postitem .mngez_proside, .forumtitle .mngez_subforums, #mngez_topheader, #mngez_navone,footer .footertwo .copyrights, #mngez_sidebar {display: none;}
+#mngez_sidebar, #mngez_content, .col-lg-4, .col-lg-8, .mngez_postitem .col-lg-8, .col-lg-6 {float: none;padding: 0 15px;width: 100%;}
+#mngez_sidebar {margin: 30px auto 0;}
+#mngez_sidebar .mngez_socialmedia a {font-size: 19px;height: 37px;line-height: 37px;margin: 0 1px;width: 37px;}
+#mngez_sidebar .mngez_socialmedia a i {line-height: 37px;}
+.mngez_txtmaneg {height: auto;padding: 0;border-radius: 0;}
+.mngez_txtmaneg .title {float: none;width: 100%;border-radius: 0;}
+.mngez_txtmaneg .content {float: none;width: 100%;font-size: 14px;}
+.mngez_forumhome .title span.tdone {font-size: 12px;width: 85%;}
+.mngez_forumhome .title span.tdtwo {width: 15%;}
+.forumtitle {font-size: 12px;padding: 15px 10px;width: 100%;}
+.forumtitle span.xviewing {float: left;font-size: 12px;margin: 0 auto;}
+.mngez_forumdesplaytop .tdone {float: none;font-size: 12px;height: auto;text-align: center;width: 100%;}
+.mngez_forumdesplaytop .tdtwo, .mngez_forumdesplaybottom span.tdone {float: none;width: 100%;}
+.jumpforum label, .mngez_moderation label {display: block;float: none;padding: 0;text-align: center;}
+.jumpforum select, .mngez_moderation select {float: none;margin: 0 auto;min-width: 100%;width: 100%;}
+.jumpforum input.button, .mngez_moderation input.button {float: none;margin: 10px auto 0;width: 100%;}
+.mngez_forumdesplay2top .tdone, .mngez_forumdesplay2top .tdtwo, .mngez_forumdesplay2top .tdthree {float: none;font-size: 12px;text-align: center;width: 100%;}
+.mngez_announcement .title {font-size: 13px;line-height: normal;min-height: auto;text-align: center;width: 100%;}
+.hidden-xs {display: none;}
+table.mngez_threads tbody tr td .text-right {float: none;width: auto;}
+.remodal .content .rememberpass, .remodal .content label {font-size: 13px;}
+.mngez_emailpassword .content input.button {display: block;padding: 5px;width: 100%;}
+.mngez_pagenation {float: none;text-align: center;}
+.mngez_pagenation ul li a, .mngez_pagenation ul li span {font-size: 13px;padding: 3px 9px;}
+.mngez_buttonarea {float: none;margin: 15px auto;}
+.mngez_postitem .mngez_postsettings ul li {margin: 3px;}
+.mngez_bookmarksites .content ul li {display: inline-block;float: none !important;font-size: 15px;margin: 5px 10px !important;min-width: auto !important;width: auto !important;}
+.mngez_tagbox .title .normal {float: none !important;}
+body.emailpassword .mngez_emailpassword, body.registerrules .mngez_register1, .mngez_redirecting, .mngez_contactus {width: 100%;}
+.mngez_redirecting .content p, .mngez_redirecting .content a {font-size: 13px;}
+.mngez_contactus .content .checkitem input[type="text"] {display: block;width: 100%;}
+.mngez_contactus .content input.button {padding: 0 20px;}
+.mngez_contactus .title span {display: block;float: none !important;}
+.mngez_activeusers .title {font-size: 12px;}
+.mngez_braedcrumb span, .mngez_braedcrumb p {font-size: 12px;font-weight: bold;}
+.table-responsive {padding: 0 0 15px;}
+#content_container {float: none !important;margin: 0 auto !important;}
+#content_container #content {margin: 0 auto !important;}
+#sidebar_container {float: none !important;width: auto !important;}
+#message_list div.fixed_width_avatar {float: none !important;margin: 0 auto !important;}
+#message_list div.visitor_message_avatar_margin {margin: 10px auto 0 !important;}
+footer .footerone .footerwidget li {width: 50%;}
+footer .footertwo .mngez {float: none;display: table;margin: 0 auto;}
+}
+
+/* Smart phones and Tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+.container {width: 100%;}
+#headermob, .visible-xs, .mngez_postitem .mngez_proside2 {display: block;}
+nav, .mngez_notices .content .navbar_notice input, .mngez_forumhome .title span.tdtwo p, .forumicon, .forumstate, .forumtitle .description, header, .mngez_forumdesplaybottom span.tdtwo, .mngez_forumdesplaybottom span.iconarea, .mngez_announcement .icon, .mngez_announcement .countview, .mngez_postitem .mngez_proside, .forumtitle .mngez_subforums, #mngez_topheader, #mngez_navone,footer .footertwo .copyrights, #mngez_sidebar {display: none;}
+#mngez_sidebar, #mngez_content, .col-lg-4, .col-lg-8, .mngez_postitem .col-lg-8, .col-lg-6 {float: none;padding: 0 15px;width: 100%;}
+#mngez_sidebar {margin: 30px auto 0;}
+#mngez_sidebar .mngez_socialmedia a {font-size: 19px;height: 37px;line-height: 37px;margin: 0 1px;width: 37px;}
+#mngez_sidebar .mngez_socialmedia a i {line-height: 37px;}
+.mngez_txtmaneg {height: auto;padding: 0;border-radius: 0;}
+.mngez_txtmaneg .title {float: none;width: 100%;border-radius: 0;}
+.mngez_txtmaneg .content {float: none;width: 100%;font-size: 14px;}
+.mngez_forumhome .title span.tdone {font-size: 12px;width: 85%;}
+.mngez_forumhome .title span.tdtwo {width: 15%;}
+.forumtitle {font-size: 12px;padding: 15px 10px;width: 100%;}
+.forumtitle span.xviewing {float: left;font-size: 12px;margin: 0 auto;}
+.mngez_forumdesplaytop .tdone {float: none;font-size: 12px;height: auto;text-align: center;width: 100%;}
+.mngez_forumdesplaytop .tdtwo, .mngez_forumdesplaybottom span.tdone {float: none;width: 100%;}
+.jumpforum label, .mngez_moderation label {display: block;float: none;padding: 0;text-align: center;}
+.jumpforum select, .mngez_moderation select {float: none;margin: 0 auto;min-width: 100%;width: 100%;}
+.jumpforum input.button, .mngez_moderation input.button {float: none;margin: 10px auto 0;width: 100%;}
+.mngez_forumdesplay2top .tdone, .mngez_forumdesplay2top .tdtwo, .mngez_forumdesplay2top .tdthree {float: none;font-size: 12px;text-align: center;width: 100%;}
+.mngez_announcement .title {font-size: 13px;line-height: normal;min-height: auto;text-align: center;width: 100%;}
+.hidden-xs {display: none;}
+table.mngez_threads tbody tr td .text-right {float: none;width: auto;}
+.remodal .content .rememberpass, .remodal .content label {font-size: 13px;}
+.mngez_emailpassword .content input.button {display: block;padding: 5px;width: 100%;}
+.mngez_pagenation {float: none;text-align: center;}
+.mngez_pagenation ul li a, .mngez_pagenation ul li span {font-size: 13px;padding: 3px 9px;}
+.mngez_buttonarea {float: none;margin: 15px auto;}
+.mngez_postitem .mngez_postsettings ul li {margin: 3px;}
+.mngez_bookmarksites .content ul li {display: inline-block;float: none !important;font-size: 15px;margin: 5px 10px !important;min-width: auto !important;width: auto !important;}
+.mngez_tagbox .title .normal {float: none !important;}
+body.emailpassword .mngez_emailpassword, body.registerrules .mngez_register1, .mngez_redirecting, .mngez_contactus {width: 100%;}
+.mngez_redirecting .content p, .mngez_redirecting .content a {font-size: 13px;}
+.mngez_contactus .content .checkitem input[type="text"] {display: block;width: 100%;}
+.mngez_contactus .content input.button {padding: 0 20px;}
+.mngez_contactus .title span {display: block;float: none !important;}
+.mngez_activeusers .title {font-size: 12px;}
+.mngez_braedcrumb span, .mngez_braedcrumb p {font-size: 12px;font-weight: bold;}
+.table-responsive {padding: 0 0 15px;}
+#content_container {float: none !important;margin: 0 auto !important;}
+#content_container #content {margin: 0 auto !important;}
+#sidebar_container {float: none !important;width: auto !important;}
+#message_list div.fixed_width_avatar {float: none !important;margin: 0 auto !important;}
+#message_list div.visitor_message_avatar_margin {margin: 10px auto 0 !important;}
+footer .footerone .footerwidget li {width: 50%;}
+footer .footertwo .mngez {float: none;display: table;margin: 0 auto;}
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+.container {width: 100%;}
+#headermob, .visible-xs, .mngez_postitem .mngez_proside2 {display: block;}
+nav, .mngez_notices .content .navbar_notice input, .mngez_forumhome .title span.tdtwo p, .forumicon, .forumstate, .forumtitle .description, header, .mngez_forumdesplaybottom span.tdtwo, .mngez_forumdesplaybottom span.iconarea, .mngez_announcement .icon, .mngez_announcement .countview, .mngez_postitem .mngez_proside, .forumtitle .mngez_subforums, #mngez_topheader, #mngez_navone,footer .footertwo .copyrights, #mngez_sidebar {display: none;}
+#mngez_sidebar, #mngez_content, .col-lg-4, .col-lg-8, .mngez_postitem .col-lg-8, .col-lg-6 {float: none;padding: 0 15px;width: 100%;}
+#mngez_sidebar {margin: 30px auto 0;}
+#mngez_sidebar .mngez_socialmedia a {font-size: 19px;height: 37px;line-height: 37px;margin: 0 1px;width: 37px;}
+#mngez_sidebar .mngez_socialmedia a i {line-height: 37px;}
+.mngez_txtmaneg {height: auto;padding: 0;border-radius: 0;}
+.mngez_txtmaneg .title {float: none;width: 100%;border-radius: 0;}
+.mngez_txtmaneg .content {float: none;width: 100%;font-size: 14px;}
+.mngez_forumhome .title span.tdone {font-size: 12px;width: 85%;}
+.mngez_forumhome .title span.tdtwo {width: 15%;}
+.forumtitle {font-size: 12px;padding: 15px 10px;width: 100%;}
+.forumtitle span.xviewing {float: left;font-size: 12px;margin: 0 auto;}
+.mngez_forumdesplaytop .tdone {float: none;font-size: 12px;height: auto;text-align: center;width: 100%;}
+.mngez_forumdesplaytop .tdtwo, .mngez_forumdesplaybottom span.tdone {float: none;width: 100%;}
+.jumpforum label, .mngez_moderation label {display: block;float: none;padding: 0;text-align: center;}
+.jumpforum select, .mngez_moderation select {float: none;margin: 0 auto;min-width: 100%;width: 100%;}
+.jumpforum input.button, .mngez_moderation input.button {float: none;margin: 10px auto 0;width: 100%;}
+.mngez_forumdesplay2top .tdone, .mngez_forumdesplay2top .tdtwo, .mngez_forumdesplay2top .tdthree {float: none;font-size: 12px;text-align: center;width: 100%;}
+.mngez_announcement .title {font-size: 13px;line-height: normal;min-height: auto;text-align: center;width: 100%;}
+.hidden-xs {display: none;}
+table.mngez_threads tbody tr td .text-right {float: none;width: auto;}
+.remodal .content .rememberpass, .remodal .content label {font-size: 13px;}
+.mngez_emailpassword .content input.button {display: block;padding: 5px;width: 100%;}
+.mngez_pagenation {float: none;text-align: center;}
+.mngez_pagenation ul li a, .mngez_pagenation ul li span {font-size: 13px;padding: 3px 9px;}
+.mngez_buttonarea {float: none;margin: 15px auto;}
+.mngez_postitem .mngez_postsettings ul li {margin: 3px;}
+.mngez_bookmarksites .content ul li {display: inline-block;float: none !important;font-size: 15px;margin: 5px 10px !important;min-width: auto !important;width: auto !important;}
+.mngez_tagbox .title .normal {float: none !important;}
+body.emailpassword .mngez_emailpassword, body.registerrules .mngez_register1, .mngez_redirecting, .mngez_contactus {width: 100%;}
+.mngez_redirecting .content p, .mngez_redirecting .content a {font-size: 13px;}
+.mngez_contactus .content .checkitem input[type="text"] {display: block;width: 100%;}
+.mngez_contactus .content input.button {padding: 0 20px;}
+.mngez_contactus .title span {display: block;float: none !important;}
+.mngez_activeusers .title {font-size: 12px;}
+.mngez_braedcrumb span, .mngez_braedcrumb p {font-size: 12px;font-weight: bold;}
+.table-responsive {padding: 0 0 15px;}
+#content_container {float: none !important;margin: 0 auto !important;}
+#content_container #content {margin: 0 auto !important;}
+#sidebar_container {float: none !important;width: auto !important;}
+#message_list div.fixed_width_avatar {float: none !important;margin: 0 auto !important;}
+#message_list div.visitor_message_avatar_margin {margin: 10px auto 0 !important;}
+footer .footerone .footerwidget li {width: 50%;}
+footer .footertwo .mngez {float: none;display: table;margin: 0 auto;}
+}
+
+/* Medium Screens */
+@media (max-width: 1000px) {
+}
+
+/* Large Screens */
+@media (max-width: 1328px) {
+}
+
+/* Large Screens */
+@media (max-width: 1559px) {
+}
